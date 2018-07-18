@@ -393,7 +393,7 @@ OBJECT Table 6085580 Template Field
                                                               ENU=Transfer Blank Values] }
     { 50000;  ;Field valid at min Top;Integer     ;CaptionML=DEU=Feld gÅltig bei mind. x-Position }
     { 50001;  ;Field valid at min Left;Integer    ;CaptionML=DEU=Feld gÅltig bei mind. y-Position }
-    { 50002;  ;Offset Source Field ;Code10        ;TableRelation="Template Field".Code WHERE (Template No.=FIELD(Template No.),
+    { 50002;  ;Offset Source Field ;Code20        ;TableRelation="Template Field".Code WHERE (Template No.=FIELD(Template No.),
                                                                                               Type=CONST(Line));
                                                    CaptionML=[DEU=Offset Herkunftsfeld;
                                                               ENU=Offset Source Field] }
